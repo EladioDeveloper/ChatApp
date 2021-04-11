@@ -103,11 +103,11 @@ export default class SignUp extends Component {
             type="button"
             onClick={this.githubSignIn}
           >
-            Sign up with GitHub
+            Registrarse con GitHub
           </button>
           <hr></hr>
           <p>
-            ¿Ya tienes una cuenta? <Link to="/login">Login</Link>
+            ¿Ya tienes una cuenta? <Link to="/login">Inicia Sesion</Link>
           </p>
         </form>
       </div>

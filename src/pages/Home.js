@@ -11,16 +11,16 @@ export default class HomePage extends Component {
         <section>
           <div className="jumbotron jumbotron-fluid py-5">
             <div className="container text-center py-5">
-              <h1 className="display-4">Welcome to Chatty</h1>
+              <h1 className="display-4">Bienvenido a Chat App</h1>
               <p className="lead">
-                A great place to share your thoughts with friends
+                El mejor aplicativo para chatear sobre proyectos
               </p>
               <div className="mt-4">
                 <Link className="btn btn-primary px-5 mr-3" to="/signup">
-                  Create New Account
+                  Crear una cuenta
                 </Link>
                 <Link className="btn px-5" to="/login">
-                  Login to Your Account
+                  Iniciar Sesion
                 </Link>
               </div>
             </div>

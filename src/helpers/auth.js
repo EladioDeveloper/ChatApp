@@ -9,7 +9,7 @@ export function signin(email, password) {
 }
 
 export function signInWithGoogle() {
-  const provider = new auth.GoogleAuthProvider_Instance();
+  const provider = new auth.GoogleAuthProvider();
   return auth().signInWithPopup(provider);
 }
 

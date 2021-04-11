@@ -110,7 +110,7 @@ export default class Login extends Component {
           </button>
           <hr />
           <p>
-            ¿No tienes una cuenta? <Link to="/signup"> Regustrarse </Link>
+            ¿No tienes una cuenta? <Link to="/signup"> Registrate </Link>
           </p>
         </form>
       </div>
